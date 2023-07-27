@@ -1,5 +1,6 @@
 # electron-diffraction-patterns
-Development of AI Methods for Finding Hidden Dimensions (Summer 2021)
+Development of AI Methods for Finding Hidden Dimensions (Summer 2021) supervised by Hazem Daoud from Prof. Miller’s group in University of Toronto.
+
 We first load material details of bismuth, which is a cif file, to the CrystalMaker software. Then CrystalMaker will simulate its diffraction pattern. CrystalMaker also allow us to edit the structure easily, the parameter we choose to edit is called Uiso. As the value of Uiso changes, the structures of the bismuth changes. Then we export the profiles for the simulated diffraction patterns to a text file. The picture on left hand side is part of a text file. Each file has two columns: intensity and angle.. A python code was written to convert the profile to a ring-like diffraction pattern. 
 
 <img width="765" alt="Screen Shot 2023-07-27 at 3 40 04 PM" src="https://github.com/anna1963/electron-diffraction-patterns/assets/68674174/2869af08-7015-431a-9c7b-5c48560f90fa">
